@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git add -A
+
+echo "please enter your commit message"
+read commit_msg
+
+git commit -m "$commit_msg"
+
+git push

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#copy this bin folder to home directory
+cp -R bin ~/
+
+#change the recursive permisiion of that bin folder
+chmod +x -R ~/bin/
+
+#add created bin directroy into environment path by adding in .bashrc file
+echo "abcdexport PATH=\$PATH:~/bin/" >> ~/.bashrc
