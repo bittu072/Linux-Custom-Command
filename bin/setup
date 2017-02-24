@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#start atom editor-- if you use sublime, change this
+atom
+
+#start chrome browser
+google-chrome
+

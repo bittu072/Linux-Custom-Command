@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#script to start websites--
+xdg-open https://www.youtube.com/
+xdg-open http://google.com/
+xdg-open https://www.amazon.com/
